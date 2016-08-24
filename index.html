@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+      <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+    #LoginScreen{
+  width:100vw;
+  height:100vh;
+  z-index: 1000;
+}
+#LoginScreen .valign-wrapper{
+  height:100vh;
+}
+#LoginScreen .card{
+  max-width:360px;
+  width:90%;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+    </style>
+  </head>
+    <body class="grey lighten-3">
+    <main>
+      <div id="LoginScreen" class="grey lighten-3">
+        <div class="valign-wrapper">
+          <div class="valign" style="width:100%;">
+            <div style="width:100%;">
+              <div class="center" style="width:100%;position:relative;">
+                <img src="images/jumpa.png" style="max-width: 80px;position: absolute;top: -75px;z-index: 2000;left: calc(50% - 40px);"/>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="center">
+                  <div style="margin-bottom:10px;">
+                    ตั้งรูปโปรไฟล์ร่วมงานสัปดาห์วิทยาศาสคร์
+                  </div>
+                  <a id="login" class="waves-effect waves-light btn">เลือกภาพ</a>
+                  <div id="login-preload" class="preloader-wrapper small active" style="display:none;">
+                    <div class="spinner-layer spinner-green-only">
+                      <div class="circle-clipper left">
+                        <div class="circle"></div>
+                      </div><div class="gap-patch">
+                        <div class="circle"></div>
+                      </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="CropScreen">
+      </div>
+      <div class="SelectWord">
+      </div>
+    </main>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  </body>
+</html>
