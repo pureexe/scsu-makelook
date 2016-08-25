@@ -157,3 +157,20 @@ $.get('asset/tags.json', function( data ) {
   	overlayImage( $(this).data('tagid') );
   });
 });
+//Preload for improve ux
+$.get('major/math.png');
+$.get('major/stat.png');
+$.get('major/bio.png');
+$.get('major/phy.png');
+$.get('major/envi.png');
+$.get('major/appmath.png');
+$.get('major/com.png');
+$.get('major/chem.png');
+$.get('major/it.png');
+$.get('major/chem.png');
+$.get('etc/dekwitya.png');
+$.get('etc/fanwitya.png');
+$.get('etc/want-fan.png');
+$.get('etc/dek60.png');
+$.get('etc/want-learn.png');
+$.get('etc/waitadd.png');
