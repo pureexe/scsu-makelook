@@ -167,7 +167,7 @@ $.get('img/overlay/major/appmath.png');
 $.get('img/overlay/major/com.png');
 $.get('img/overlay/major/chem.png');
 $.get('img/overlay/major/it.png');
-$.get('img/overlay/major/chem.png');
+$.get('img/overlay/major/micro.png');
 $.get('img/overlay/etc/dekwitya.png');
 $.get('img/overlay/etc/fanwitya.png');
 $.get('img/overlay/etc/want-fan.png');
