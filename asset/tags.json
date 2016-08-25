@@ -1,0 +1,99 @@
+[
+	{
+		"meta": {
+			"title": "ทั่วไป",
+			"description": "Lorem ipsum",
+			"class": "col-md-4"
+		},
+		"tags": [
+			{
+				"id": "etc-1",
+				"title": "#ทีมเด็กวิดยา",
+				"description": ""
+			},
+			{
+				"id": "etc-2",
+				"title": "#ทีมแฟนวิดยา",
+				"description": ""
+			},
+			{
+				"id": "etc-3",
+				"title": "#ทีมวิดยาอยากมีแฟน",
+				"description": ""
+			},
+			{
+				"id": "etc-4",
+				"title": "#ทีมอยากเรียนวิดยา",
+				"description": ""
+			},
+			{
+				"id": "etc-5",
+				"title": "#ทีมรอแอด",
+				"description": ""
+			},
+			{
+				"id": "etc-6",
+				"title": "#TeamDEK60",
+				"description": ""
+			}
+		]
+	},
+	{
+		"meta": {
+			"title": "ภาควิชา/หลักสูตรในคณะวิทยาศาสตร์",
+			"description": "Lorem ipsum",
+			"class": "col-md-6"
+		},
+		"tags": [
+			{
+				"id": "math",
+				"title": "#TeamMATH",
+				"description": "(สาขาคณิตศาสตร์)"
+			},
+			{
+				"id": "stat",
+				"title": "#TeamSTAT",
+				"description": "(สาขาสถิติ)"
+			},
+			{
+				"id": "bio",
+				"title": "#TeamBIO",
+				"description": "(สาขาชีววิทยา)"
+			},
+			{
+				"id": "phy",
+				"title": "#TeamPHY",
+				"description": "(สาขาฟิสิกส์)"
+			},
+			{
+				"id": "envi",
+				"title": "#TeamENVI",
+				"description": "(สาขาวิทยาศาสตร์สิ่งแวดล้อม)"
+			},
+			{
+				"id": "appmath",
+				"title": "#TeamAPPMATH",
+				"description": "(สาขาคณิตศาสตร์ประยุกต์)"
+			},
+			{
+				"id": "com",
+				"title": "#TeamCOM",
+				"description": "(สาขาวิทยาการคอมพิวเตอร์)"
+			},
+			{
+				"id": "chem",
+				"title": "#TeamCHEM",
+				"description": "(สาขาเคมี)"
+			},
+			{
+				"id": "it",
+				"title": "#TeamIT",
+				"description": "(สาขาเทคโนโลยีและสาราสนเทศ)"
+			},
+			{
+				"id": "micro",
+				"title": "#TeamMICRO",
+				"description": "(สาขาจุลชีววิทยา)"
+			}		]
+	}
+]
