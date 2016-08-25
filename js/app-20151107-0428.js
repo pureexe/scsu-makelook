@@ -102,16 +102,16 @@ function overlayImage(type) {
         case 'etc-4':  filename += 'etc/want-learn.png'; break;
         case 'etc-5':  filename += 'etc/waitadd.png'; break;
         case 'etc-6':  filename += 'etc/dek60.png'; break;
-        case 'math':   filename += 'majors/math.png'; break;
-        case 'stat':   filename += 'majors/stat.png'; break;
-        case 'bio':    filename += 'majors/bio.png'; break;
-        case 'phy':    filename += 'majors/phy.png'; break;
-        case 'envi':   filename += 'majors/envi.png'; break;
-        case 'appmath':filename += 'majors/appmath.png'; break;
-        case 'com':    filename += 'majors/com.png'; break;
-        case 'chem':   filename += 'majors/chem.png'; break;
-        case 'it':     filename += 'majors/it.png'; break;
-        case 'micro':  filename += 'majors/micro.png'; break;
+        case 'math':   filename += 'major/math.png'; break;
+        case 'stat':   filename += 'major/stat.png'; break;
+        case 'bio':    filename += 'major/bio.png'; break;
+        case 'phy':    filename += 'major/phy.png'; break;
+        case 'envi':   filename += 'major/envi.png'; break;
+        case 'appmath':filename += 'major/appmath.png'; break;
+        case 'com':    filename += 'major/com.png'; break;
+        case 'chem':   filename += 'major/chem.png'; break;
+        case 'it':     filename += 'major/it.png'; break;
+        case 'micro':  filename += 'major/micro.png'; break;
     }
     var destContext = $('#img-canvas')[0].getContext('2d');
     destContext.clearRect(0, 0, $('#img-canvas')[0].width, $('#img-canvas')[0].height);
@@ -141,7 +141,6 @@ function checkRequirement() {
 $('#btn-rotate-ccw').click(function(){ $('#img-preview').cropper('rotate', -90); });
 $('#btn-rotate-cw').click(function(){ $('#img-preview').cropper('rotate', 90); });
 $.get('asset/tags.json', function( data ) {
-  console.log(data);
   var output = "";
   data.forEach(function(tag_info){
     var column_class = tag_info.meta.class;
