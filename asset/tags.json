@@ -58,6 +58,12 @@
 				"title": "#45thSCSU",
 				"description": "",
 				"path": "img/overlay/etc/45thscsu.png"
+			},
+			{
+				"id": "etc-10",
+				"title": "#ทีมปั่นข้ามคืน",
+				"description": "",
+				"path": "img/overlay/etc/spinwork.png"
 			}
 		]
 	},
