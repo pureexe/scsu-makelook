@@ -92,31 +92,12 @@ $('#btn-download').click(function(){
     ReImg.fromCanvas(document.getElementById('img-canvas')).downloadPng();
 });
 
-function overlayImage(type) {
+function overlayImage(filename) {
     $('#loading').show();
-    var filename = 'img/overlay/';
-    switch (type) {
-        case 'etc-1':  filename += 'etc/dekwitya.png'; break;
-        case 'etc-2':  filename += 'etc/fanwitya.png'; break;
-        case 'etc-3':  filename += 'etc/want-fan.png'; break;
-        case 'etc-4':  filename += 'etc/want-learn.png'; break;
-        case 'etc-5':  filename += 'etc/waitadd.png'; break;
-        case 'etc-6':  filename += 'etc/dek60.png'; break;
-        case 'math':   filename += 'major/math.png'; break;
-        case 'stat':   filename += 'major/stat.png'; break;
-        case 'bio':    filename += 'major/bio.png'; break;
-        case 'phy':    filename += 'major/phy.png'; break;
-        case 'envi':   filename += 'major/envi.png'; break;
-        case 'appmath':filename += 'major/appmath.png'; break;
-        case 'com':    filename += 'major/com.png'; break;
-        case 'chem':   filename += 'major/chem.png'; break;
-        case 'it':     filename += 'major/it.png'; break;
-        case 'micro':  filename += 'major/micro.png'; break;
-    }
     var destContext = $('#img-canvas')[0].getContext('2d');
     destContext.clearRect(0, 0, $('#img-canvas')[0].width, $('#img-canvas')[0].height);
     destContext.drawImage(oriContext, 0, 0, $('#img-canvas')[0].width, $('#img-canvas')[0].height);
-    if (filename != 'img/overlay/') {
+    if (filename) {
         var img = new Image();
         img.src = filename;
         img.onload = function() {
@@ -148,29 +129,13 @@ $.get('asset/tags.json', function( data ) {
     output+=tag_info.meta.title;
     output+='</h3></div></div><div class="row overlay-selector">';
     tag_info.tags.forEach(function(tag){
-      output+='<div class="'+column_class+'"><button id="btn-team-'+tag.id+'" data-tagid="'+tag.id+'" class="intania-team btn btn-default btn-block"><b>'+tag.title+'</b><br><small>'+tag.description+'</small></button></div>';
+      output+='<div class="'+column_class+'"><button id="btn-team-'+tag.id+'" data-tagid="'+tag.id+'" data-path="'+tag.path+'" class="intania-team btn btn-default btn-block"><b>'+tag.title+'</b><br><small>'+tag.description+'</small></button></div>';
+      $.get(tag.path); // preload for UX improve
     })
     output+='</div>';
   });
   $("#boxList").html(output);
   $('.intania-team').click(function(){
-  	overlayImage( $(this).data('tagid') );
+  	overlayImage( $(this).data('path') );
   });
 });
-//Preload for improve ux
-$.get('img/overlay/major/math.png');
-$.get('img/overlay/major/stat.png');
-$.get('img/overlay/major/bio.png');
-$.get('img/overlay/major/phy.png');
-$.get('img/overlay/major/envi.png');
-$.get('img/overlay/major/appmath.png');
-$.get('img/overlay/major/com.png');
-$.get('img/overlay/major/chem.png');
-$.get('img/overlay/major/it.png');
-$.get('img/overlay/major/micro.png');
-$.get('img/overlay/etc/dekwitya.png');
-$.get('img/overlay/etc/fanwitya.png');
-$.get('img/overlay/etc/want-fan.png');
-$.get('img/overlay/etc/dek60.png');
-$.get('img/overlay/etc/want-learn.png');
-$.get('img/overlay/etc/waitadd.png');

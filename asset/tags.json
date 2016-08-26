@@ -2,98 +2,131 @@
 	{
 		"meta": {
 			"title": "ทั่วไป",
-			"description": "Lorem ipsum",
 			"class": "col-md-4"
 		},
 		"tags": [
 			{
 				"id": "etc-1",
 				"title": "#ทีมเด็กวิดยา",
-				"description": ""
+				"description": "",
+				"path": "img/overlay/etc/dekwitya.png"
 			},
 			{
 				"id": "etc-2",
 				"title": "#ทีมแฟนวิดยา",
-				"description": ""
+				"description": "",
+				"path": "img/overlay/etc/fanwitya.png"
 			},
 			{
 				"id": "etc-3",
 				"title": "#ทีมวิดยาอยากมีแฟน",
-				"description": ""
+				"description": "",
+				"path": "img/overlay/etc/want-fan.png"
 			},
 			{
 				"id": "etc-4",
 				"title": "#ทีมอยากเรียนวิดยา",
-				"description": ""
+				"description": "",
+				"path": "img/overlay/etc/want-learn.png"
 			},
 			{
 				"id": "etc-5",
 				"title": "#ทีมรอแอด",
-				"description": ""
+				"description": "",
+				"path": "img/overlay/etc/waitadd.png"
 			},
 			{
 				"id": "etc-6",
 				"title": "#TeamDEK60",
-				"description": ""
+				"description": "",
+				"path": "img/overlay/etc/dek60.png"
+			},
+			{
+				"id": "etc-7",
+				"title": "#TeamSCSU",
+				"description": "",
+				"path": "img/overlay/etc/team-scsu.png"
+			},
+			{
+				"id": "etc-8",
+				"title": "#ScienceWeekSU2016",
+				"description": "",
+				"path": "img/overlay/etc/scienceweeksu2016.png"
+			},
+			{
+				"id": "etc-9",
+				"title": "#45thSCSU",
+				"description": "",
+				"path": "img/overlay/etc/45thscsu.png"
 			}
 		]
 	},
 	{
 		"meta": {
 			"title": "ภาควิชา/หลักสูตรในคณะวิทยาศาสตร์",
-			"description": "Lorem ipsum",
 			"class": "col-md-6"
 		},
 		"tags": [
 			{
 				"id": "math",
 				"title": "#TeamMATH",
-				"description": "(สาขาคณิตศาสตร์)"
+				"description": "(สาขาคณิตศาสตร์)",
+				"path": "img/overlay/major/math.png"
 			},
 			{
 				"id": "stat",
 				"title": "#TeamSTAT",
-				"description": "(สาขาสถิติ)"
+				"description": "(สาขาสถิติ)",
+				"path": "img/overlay/major/stat.png"
 			},
 			{
 				"id": "bio",
 				"title": "#TeamBIO",
-				"description": "(สาขาชีววิทยา)"
+				"description": "(สาขาชีววิทยา)",
+				"path": "img/overlay/major/bio.png"
 			},
 			{
 				"id": "phy",
 				"title": "#TeamPHY",
-				"description": "(สาขาฟิสิกส์)"
+				"description": "(สาขาฟิสิกส์)",
+				"path": "img/overlay/major/phy.png"
 			},
 			{
 				"id": "envi",
 				"title": "#TeamENVI",
-				"description": "(สาขาวิทยาศาสตร์สิ่งแวดล้อม)"
+				"description": "(สาขาวิทยาศาสตร์สิ่งแวดล้อม)",
+				"path": "img/overlay/major/envi.png"
 			},
 			{
 				"id": "appmath",
 				"title": "#TeamAPPMATH",
-				"description": "(สาขาคณิตศาสตร์ประยุกต์)"
+				"description": "(สาขาคณิตศาสตร์ประยุกต์)",
+				"path": "img/overlay/major/appmath.png"
 			},
 			{
 				"id": "com",
 				"title": "#TeamCOM",
-				"description": "(สาขาวิทยาการคอมพิวเตอร์)"
+				"description": "(สาขาวิทยาการคอมพิวเตอร์)",
+				"path": "img/overlay/major/com.png"
 			},
 			{
 				"id": "chem",
 				"title": "#TeamCHEM",
-				"description": "(สาขาเคมี)"
+				"description": "(สาขาเคมี)",
+				"path": "img/overlay/major/chem.png"
 			},
 			{
 				"id": "it",
 				"title": "#TeamIT",
-				"description": "(สาขาเทคโนโลยีและสารสนเทศ)"
+				"description": "(สาขาเทคโนโลยีสารสนเทศ)",
+				"path": "img/overlay/major/it.png"
 			},
 			{
 				"id": "micro",
 				"title": "#TeamMICRO",
-				"description": "(สาขาจุลชีววิทยา)"
-			}		]
+				"description": "(สาขาจุลชีววิทยา)",
+				"path": "img/overlay/major/micro.png"
+			}
+		]
 	}
 ]
